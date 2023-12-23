@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9be24262-0474-4004-9e21-2cdd20337086" name="Changes" comment="ExchangeRateLoader interface created">
-      <change afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/moneycalculator/MoneyDialog.java" afterDir="false" />
+    <list default="true" id="9be24262-0474-4004-9e21-2cdd20337086" name="Changes" comment="MoneyDisplay interface created">
+      <change afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/moneycalculator/mocks/MockCurrencyLoader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,9 +15,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Record" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -99,7 +99,31 @@
       <option name="project" value="LOCAL" />
       <updated>1703361141887</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="MoneyDialog interface created">
+      <option name="closed" value="true" />
+      <created>1703361544152</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1703361544152</updated>
+    </task>
+    <task id="LOCAL-00008" summary="CurrencyDialog interface created">
+      <option name="closed" value="true" />
+      <created>1703361633671</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1703361633671</updated>
+    </task>
+    <task id="LOCAL-00009" summary="MoneyDisplay interface created">
+      <option name="closed" value="true" />
+      <created>1703361737829</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1703361737829</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -109,6 +133,9 @@
     <MESSAGE value="Money class created" />
     <MESSAGE value="ExchangeRate record created" />
     <MESSAGE value="ExchangeRateLoader interface created" />
-    <option name="LAST_COMMIT_MESSAGE" value="ExchangeRateLoader interface created" />
+    <MESSAGE value="MoneyDialog interface created" />
+    <MESSAGE value="CurrencyDialog interface created" />
+    <MESSAGE value="MoneyDisplay interface created" />
+    <option name="LAST_COMMIT_MESSAGE" value="MoneyDisplay interface created" />
   </component>
 </project>
