@@ -16,6 +16,6 @@ public class MockCurrencyDialog implements CurrencyDialog {
 
     @Override
     public Currency get() {
-        return currencies.get(1);
+        return currencies.get(3);
     }
 }
