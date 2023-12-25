@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9be24262-0474-4004-9e21-2cdd20337086" name="Changes" comment="ExchangeMoneyCommand class created.">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/moneycalculator/fixerws/FixerCurrencyLoader.java" afterDir="false" />
+    <list default="true" id="9be24262-0474-4004-9e21-2cdd20337086" name="Changes" comment="FixerCurrencyLoader class created.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/moneycalculator/fixerws/FixerExchangeRateLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/moneycalculator/fixerws/TestMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/software/ulpgc/moneycalculator/fixerws/FixerCurrencyLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/moneycalculator/fixerws/FixerCurrencyLoader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +39,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.MockMain.executor": "Run",
+    "Application.TestMain.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -46,7 +48,7 @@
     "last_opened_file_path": "C:/Users/Alejandro/Desktop/Nueva carpeta (3)/money-calculator"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.TestMain">
     <configuration name="MockMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="software.ulpgc.moneycalculator.mocks.MockMain" />
       <module name="moneycalculator" />
@@ -60,8 +62,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="software.ulpgc.moneycalculator.fixerws.TestMain" />
+      <module name="moneycalculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="software.ulpgc.moneycalculator.fixerws.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestMain" />
         <item itemvalue="Application.MockMain" />
       </list>
     </recent_temporary>
@@ -235,7 +251,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703527430482</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="FixerCurrencyLoader class created.">
+      <option name="closed" value="true" />
+      <created>1703528924275</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1703528924275</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -259,6 +283,7 @@
     <MESSAGE value="SwingMoneyDisplay class created." />
     <MESSAGE value="Command interface created." />
     <MESSAGE value="ExchangeMoneyCommand class created." />
-    <option name="LAST_COMMIT_MESSAGE" value="ExchangeMoneyCommand class created." />
+    <MESSAGE value="FixerCurrencyLoader class created." />
+    <option name="LAST_COMMIT_MESSAGE" value="FixerCurrencyLoader class created." />
   </component>
 </project>
