@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9be24262-0474-4004-9e21-2cdd20337086" name="Changes" comment="SwingCurrencyDialog class created.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/moneycalculator/swing/SwingMoneyDialog.java" afterDir="false" />
+    <list default="true" id="9be24262-0474-4004-9e21-2cdd20337086" name="Changes" comment="ExchangeMoneyCommand class created.">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/moneycalculator/fixerws/FixerCurrencyLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,7 +203,39 @@
       <option name="project" value="LOCAL" />
       <updated>1703526018981</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="SwingMoneyDialog class created.">
+      <option name="closed" value="true" />
+      <created>1703526847216</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1703526847216</updated>
+    </task>
+    <task id="LOCAL-00018" summary="SwingMoneyDisplay class created.">
+      <option name="closed" value="true" />
+      <created>1703526990886</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1703526990886</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Command interface created.">
+      <option name="closed" value="true" />
+      <created>1703527076309</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1703527076309</updated>
+    </task>
+    <task id="LOCAL-00020" summary="ExchangeMoneyCommand class created.">
+      <option name="closed" value="true" />
+      <created>1703527430482</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1703527430482</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -221,6 +255,10 @@
     <MESSAGE value="MockMoneyDisplay class created" />
     <MESSAGE value="MockMain created." />
     <MESSAGE value="SwingCurrencyDialog class created." />
-    <option name="LAST_COMMIT_MESSAGE" value="SwingCurrencyDialog class created." />
+    <MESSAGE value="SwingMoneyDialog class created." />
+    <MESSAGE value="SwingMoneyDisplay class created." />
+    <MESSAGE value="Command interface created." />
+    <MESSAGE value="ExchangeMoneyCommand class created." />
+    <option name="LAST_COMMIT_MESSAGE" value="ExchangeMoneyCommand class created." />
   </component>
 </project>
